@@ -1,0 +1,79 @@
+<div class="sidebar" data-color="purple" data-background-color="white" data-image="/static/assets/img/sidebar-1.jpg">
+  <div class="logo">
+    <a target="_blank" rel="noopener noreferrer" 
+       href="#" class="simple-text logo-normal">
+      Device Inventory
+    </a>
+  </div>
+  <div class="sidebar-wrapper">
+    <ul class="nav">
+
+      <li class="nav-item {% if 'indexhome' in segment %} active {% endif %}">
+        <a class="nav-link" href="/">
+          <i class="material-icons">dashboard</i>
+          <p>Dashboard</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listpc' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listpc">
+          <i class="material-icons">computer</i>
+          <p>Computer & Laptop List</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listap' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listap">
+          <i class="material-icons">wifi</i>
+          <p>AP & Wifi List</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listfinger' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listfinger">
+          <i class="material-icons">fingerprint</i>
+          <p>Finger Device List</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listcctv' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listcctv">
+          <i class="material-icons">videocam</i>
+          <p>CCTV List</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listprinter' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listprinter">
+          <i class="material-icons">print</i>
+          <p>Printer List</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listscanner' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listscanner">
+          <i class="material-icons">barcode_reader</i>
+          <p>Scanner List</p>
+        </a>
+      </li>
+
+      <li class="nav-item {% if 'listemail' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listemail">
+          <i class="material-icons">email</i>
+          <p>Email Address List</p>
+        </a>
+      </li>
+      
+      <li class="nav-item {% if 'listserver' in segment %} active {% endif %}">
+        <a class="nav-link" href="/listserver">
+          <i class="material-icons">language</i>
+          <p>Server Address List</p>
+        </a>
+      </li>
+
+      
+
+    </ul>
+  </div>
+
+</div>
